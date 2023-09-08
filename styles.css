@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  h1 {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .task-input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+  }
+  
+  #taskInput {
+    padding: 8px;
+    flex-grow: 1;
+  }
+  
+  #addButton {
+    padding: 8px 16px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+.delete-button {
+    padding: auto;
+    margin-left: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+} 
